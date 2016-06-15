@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Todd and Kira's Wedding</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="basic.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $("img").load(function() {
+    $(this).wrap(function(){
+      return '<span class="image-wrap ' + $(this).attr('class') + '" style="position:relative; display:inline-block; background:url(' + $(this).attr('src') + ') no-repeat center center; width: ' + $(this).width() + 'px; height: ' + $(this).height() + 'px;" />';
+    });
+    $(this).css("opacity","0");
+  });
+
+});
+</script>
+</head>
+<body>
+<div id="nav">
+	<p class="card image-wrap"><a href="home.htm"><img src="images/rings.JPG"  ALT="Home"></a></p>
+	<p > <a id="navButton" href="ceremony.htm"> Ceremony</a> </p>
+	<p > <a id="navButton" href="reception.htm"> Reception</a> </p>
+	<p > <a id="navButton" href="directions.htm"> Directions</a> </p>
+	<p> <a id="navButton" href="attendants.htm"> The Wedding Party</a> </p>
+	<p> <a id="navButton" href="registry.htm"> Registry</a> </p>
+	<p> <a id="navButton" href="hotels.htm"> Accommodations</a> </p>
+	<p> <a id="navButton" href="travel.htm"> Travel & Transportation</a> </p>
+	<p> <a id="navButton" href="attractions.htm"> Stuff to Do</a> </p>
+	<p> <a id="navButton" href="aboutus.htm"> About Us</a> </p>
+</div>
+
+<div id="content">
+<h2> Accomodations </h2> 
+
+<p class="card image-wrap" ><IMG SRC="images/holidayInn.jpg"  /><br/></p>
+
+<p class ="smallContent">
+<b>Holiday Inn - Youngstown South - Boardman</b></br>
+The Holiday Inn is adjacent to Mr. Anthony's, the reception hall.  Kira has arranged a reduced
+group rate for guests who mention the Botkin-Harris wedding upon making their reservations.</br>
+Pricing from $125/night.</br>
+ <a id="smallLink" style="color:#6699CC; " href="http://www.holidayinn.com/hotels/us/en/boardman/yngso/hoteldetail">Hotel Information</a>
+</p>
+<p class ="smallContent">
+<b>Fairfield Inn Youngstown Boardman/Poland</b></br>
+The Fairfield Inn is less than a quarter mile from Mr. Anthony's, right across South Ave.</br>
+Pricing from $114/night for guests who mention the wedding</br>
+ <a id="smallLink" style="color:#6699CC; " href="http://www.marriott.com/hotels/travel/yngfi-fairfield-inn-youngstown-boardman-poland/">Hotel Information</a>
+</p>
+<p class ="smallContent">
+<b>Hampton Inn Youngstown/Boardman</b></br>
+The Hampton Inn is also very near Mr. Anthony's, right across South Ave.</br>
+Pricing from $115/night.</br>
+ <a id="smallLink" style="color:#6699CC; " href="http://hamptoninn3.hilton.com/en/hotels/ohio/hampton-inn-youngstown-boardman-YNGOHHX/index.html">Hotel Information</a>
+</p>
+<p class ="smallContent">
+<b>Red Roof Inn Boardman</b></br>
+The Red Roof Inn is also very near Mr. Anthony's, right across South Ave.</br>
+Pricing from $65/night.</br>
+ <a id="smallLink" style="color:#6699CC; " href="https://www.redroof.com/property/RRI253/">Hotel Information</a>
+</p>
+</div>
+</body>
+</html> 

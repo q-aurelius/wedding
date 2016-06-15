@@ -1,0 +1,164 @@
+/*
+This is the basic style sheet,
+seen by all browsers.
+*/
+body {
+background: #97BCD5;
+margin: 0px;
+padding: 0px;
+}
+img
+{  border-style: none;
+}
+p {
+width: 100%;
+text-align: center;
+}
+h2 {
+text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+#nav p{
+//width: 130px;
+}
+
+#navButton
+{
+background: #D3D3D3;
+font-size:16px;
+font-family: "Helvetica", "Arial", sans-serif;
+text-transform:uppercase;
+font-weight: bold;
+color: #6699CC;
+text-decoration:none;
+display:block;
+width: 130 px;
+padding:4px;
+border:1px solid #DDD;
+text-align:center;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-o-border-radius:5px;
+border-radius:10px;
+//text-shadow: 1px 2px 1px #aba;
+}
+
+#navButton:hover {
+	//color:#fff;
+	border-color:#3278BE;
+	text-shadow: 1px 2px 1px #aba;
+}
+
+.timeloc
+{
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+}
+.smallContent
+{
+font-size: 20px;
+text-align: center;
+}
+
+#smallContent
+{
+font-size: 20px;
+text-align: center;
+}
+
+#smallLink
+{
+font-family: "Palatino", "Palatino Linotype", serif;
+font-size: 20px;
+color: #6699CC;
+text-decoration:underline;
+}
+
+#mapButton
+{
+font-family: "Palatino", "Palatino Linotype", serif;
+font-size: 25px;
+font-weight: bold;
+color: #6699CC;
+text-decoration:underline;
+}
+#content {
+background: #D3D3D3;
+border-radius: 15px;
+position: relative;
+top: 0px;
+margin-left: 220px;
+margin-right: 20px;
+padding: 5px;
+margin-top:20px;
+border: 1px solid #333;
+margin-bottom:20px;
+min-width:540px;
+font-size: 30px;
+font-family: "Palatino", "Palatino Linotype", serif;
+color: #6699CC;
+text-shadow: 1px 2px 1px #aba;
+//color: #97BCD5;
+}
+#nav {
+border-radius: 15px;
+//background: #D3D3D3;
+
+position: absolute;
+margin-bottom: 20px;
+margin-left: 20px;
+padding: 10px;
+width: 180px;
+left: 0px;
+top: 20px;
+border: 1px  #333;
+}
+
+#wholeParty
+{
+	margin-left:50px;
+}
+
+#weddingParty
+{
+font-family: "Palatino", "Palatino Linotype", serif;
+font-size: 25px;
+//font-weight: bold;
+color: #6699CC;
+padding: 15px;
+margin-bottom: 25px;
+margin-left: 25px;
+margin-right: 25px;
+position: relative;
+text-align:center;
+}
+
+#map{
+margin-left:auto;
+margin-right:auto;
+width:50%;
+}
+
+#story1{
+font-family: "Zapfino", "Monotype Corsiva", "Lucida Calligraphy", "Script MS Bold", "Harrington", "Segoe Script",  sans-serif;
+}
+
+.round .image-wrap {
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+}
+
+.card .image-wrap {
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.4);
+	box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.4);
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Todd and Kira's Wedding</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="basic.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $("img").load(function() {
+    $(this).wrap(function(){
+      return '<span class="image-wrap ' + $(this).attr('class') + '" style="position:relative; display:inline-block; background:url(' + $(this).attr('src') + ') no-repeat center center; width: ' + $(this).width() + 'px; height: ' + $(this).height() + 'px;" />';
+    });
+    $(this).css("opacity","0");
+  });
+
+});
+</script>
+</head>
+
+<div id="nav">
+	<p class="card image-wrap"><a href="home.htm"><img src="images/rings.JPG"  ALT="Home"></a></p>
+	<p > <a id="navButton" href="ceremony.htm"> Ceremony</a> </p>
+	<p > <a id="navButton" href="reception.htm"> Reception</a> </p>
+	<p > <a id="navButton" href="directions.htm"> Directions</a> </p>
+	<p> <a id="navButton" href="attendants.htm"> The Wedding Party</a> </p>
+	<p> <a id="navButton" href="registry.htm"> Registry</a> </p>
+	<p> <a id="navButton" href="hotels.htm"> Accommodations</a> </p>
+	<p> <a id="navButton" href="travel.htm"> Travel & Transportation</a> </p>
+	<p> <a id="navButton" href="attractions.htm"> Stuff to Do</a> </p>
+	<p> <a id="navButton" href="aboutus.htm"> About Us</a> </p>
+</div>
+
+<div id="content">
+<h2> The Ceremony </h2> 
+
+<p class="card image-wrap" ><IMG SRC="images/stambaugh.jpg"   ALT="Stambaugh Auditorium"><br></p>
+<!-- Photo Credit: http://www.flickr.com/photos/onasill/ -->
+
+<div class="timeloc">
+<p>
+The ceremony will be held at 5 o'clock pm in the Anne Kilcawley Christman Memorial Hall
+of Stambaugh Auditorium.</br>
+Parking and entrance are in the back.
+</p>
+<p>
+Stambaugh Auditorium<br>
+1000 5th Avenue<br>
+Youngstown, Ohio 44504-1603<br>
+</p>
+</div>
+
+</div>
+
+</html> 

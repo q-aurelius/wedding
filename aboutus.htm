@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Todd and Kira's Wedding</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="basic.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $("img").load(function() {
+    $(this).wrap(function(){
+      return '<span class="image-wrap ' + $(this).attr('class') + '" style="position:relative; display:inline-block; background:url(' + $(this).attr('src') + ') no-repeat center center; width: ' + $(this).width() + 'px; height: ' + $(this).height() + 'px;" />';
+    });
+    $(this).css("opacity","0");
+  });
+
+});
+</script>
+</head>
+
+<div id="nav">
+	<p class="card image-wrap"><a href="home.htm"><img src="images/rings.JPG"  ALT="Home"></a></p>
+	<p > <a id="navButton" href="ceremony.htm"> Ceremony</a> </p>
+	<p > <a id="navButton" href="reception.htm"> Reception</a> </p>
+	<p > <a id="navButton" href="directions.htm"> Directions</a> </p>
+	<p> <a id="navButton" href="attendants.htm"> The Wedding Party</a> </p>
+	<p> <a id="navButton" href="registry.htm"> Registry</a> </p>
+	<p> <a id="navButton" href="hotels.htm"> Accommodations</a> </p>
+	<p> <a id="navButton" href="travel.htm"> Travel & Transportation</a> </p>
+	<p> <a id="navButton" href="attractions.htm"> Stuff to Do</a> </p>
+	<p> <a id="navButton" href="aboutus.htm"> About Us</a> </p>
+</div>
+
+<div id="content">
+	<h2> Todd and Kira </h2> 
+	<div align="center">
+	<table align="center">
+		<tr>
+			<td id="weddingParty" class="card image-wrap" >
+				<IMG SRC="images/kiraAbout.JPG" WIDTH=285 HEIGHT=400></br>
+				Kira Botkin</br>
+			</td>
+			<td>
+				<p>Kira is an avid reader, a frequent baker, and a serial entrepreneur. As her day job, she works as a clinical research coördinator
+				for OhioHealth.  In her spare time she cares for cute furry animals; she has a dog and two cats, one of which is big enough to count for
+				two.  Kira runs a variety of successful internet businesses, and writes freelance articles about taxes and finance.  
+				She bakes pies, makes cookies, and even sings in the choir.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="weddingParty" class="card image-wrap" >
+				<IMG SRC="images/toddAbout.JPG"  ><br>
+				Todd C. Harris</br>
+				</div>
+			</td>
+			<td>
+				<p>Todd has a variety of interests.  He studied classics, computer science, and ancient history at Case Western Reserve and Ohio State.
+				He reads often, in Latin, in ancient Greek, but mostly in English; the variety of science-fiction and fantasy available in Greek
+				and Latin is unfortunately limited. Since teaching Latin doesn't pay the bills, he works as a software engineer for the Online
+				Computer Library Center.  Todd cooks dinner every night; the secret ingredient is always garlic. He likes to tell himself
+			    that he runs two to three miles every day, but actually only makes it out four or five days a week. As you can see, he is rather 
+				fond of the semi-colon; punctuation is keen.</p>
+			</td>
+		</tr>
+	</table>
+	</div>
+</div>
+	</table>
+	</div>
+</div>
+
+</html> 
